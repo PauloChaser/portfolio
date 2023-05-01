@@ -59,6 +59,10 @@
     background: #3E9CE7;
 }
 
+.portfolioCard__imgWrapper--vue {
+    background: white;
+}
+
 .portfolioCard__img {
     position: absolute;
     width: 100%;
@@ -72,9 +76,18 @@
 }
 
 
+.portfolioCard__imgWrapper--creativa .portfolioCard__img--hidden{
+    height: 100%;
+    object-fit: cover;
+}
+
 .portfolioCard__img:first-child {
     width: 50%;
-    height: 50%;
+    height: 30%;
+}
+
+.portfolioCard__imgWrapper--creativa {
+
 }
 
 .portfolioCard__imgWrapper:hover .portfolioCard__img:first-child {
@@ -106,6 +119,7 @@
 .portfolioCard__description {
     font-size: 20px;
     margin-bottom: 16px;
+    line-height: 1.4;
 }
 
 .stack {
