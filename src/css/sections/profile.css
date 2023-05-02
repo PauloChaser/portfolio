@@ -93,12 +93,20 @@
 }
 
 .profile__button {
-    padding: 15px 25px;
-    background-color: #9d9d9d;
-    border-radius: 3px;
+    padding: 20px 30px;
+    background-color: #000000C6;
+    border-radius: 5px;
 
     font-size: 18px;
     font-weight: 500;
     color: #FFFFFF;
-    border: none;
+    border: 1px solid transparent;
+
+    transition: background-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.profile__button:hover {
+    border-color: #000000C6;
+    background-color: transparent;
+    color: #000000C6;
 }

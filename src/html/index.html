@@ -16,30 +16,31 @@
     <section class="container">
         <div class="container__row profile">
 
-            <div class="profile__photo"><img src="img/profile.jpg" alt="" class="profile__photoItem"></div>
+            <div class="profile__photo"><img src="img/profile-zoom.jpg" alt="" class="profile__photoItem"></div>
             <div class="profile__info">
                 <h1 class="profile__name">Pavel Kuznetsov</h1>
                 <p class="profile__post">Frontend-developer from Saint-Petersburg</p>
 
                 <div class="profile__socials">
-                    <a href="https://vk.com/paulo_chaser" class="profile__socialsLink">
-                        <svg class="profile__socialsIcon profile__socialsIcon--vk">
-                            <use href="./spritemap.svg#icon-vk"/>
-                        </svg>
-                    </a>
                     <a href="https://t.me/Paul_Kuznetsov" class="profile__socialsLink">
                         <svg class="profile__socialsIcon profile__socialsIcon--tg">
                             <use href="./spritemap.svg#icon-telegram"/>
                         </svg>
+                    </a>
                     <a href="tel:89214264926" class="profile__socialsLink">
                         <svg class="profile__socialsIcon profile__socialsIcon--phone">
                             <use href="./spritemap.svg#icon-phone"/>
                         </svg>
                     </a>
+                    <a href="https://vk.com/paulo_chaser" class="profile__socialsLink">
+                        <svg class="profile__socialsIcon profile__socialsIcon--vk">
+                            <use href="./spritemap.svg#icon-vk"/>
+                        </svg>
+                    </a>
                 </div>
 
                 <div class="profile__buttonWrapper">
-                    <a href="" class="profile__button" target="_blank">Скочай резюме па брацки</a>
+                    <a href="" class="profile__button" target="_blank">Download resume</a>
                 </div>
             </div>
 
@@ -208,8 +209,97 @@
                                 </ul>
                             </div>
                             <div class="portfolioCard__links">
-                                <a href="http://new.creativaplus.ru/" class="portfolioCard__link">САЙТ</a>
-                                <a href="https://github.com/PauloChaser/creativa-plus" class="portfolioCard__link">GIT</a>
+                                <a href="https://paulochaser.github.io/pet-vue/" class="portfolioCard__link">ДЕМО</a>
+                                <a href="https://github.com/PauloChaser/pet-vue/" class="portfolioCard__link">GIT</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item portfolioCard">
+                        <div class="portfolioCard__left">
+                            <div class="portfolioCard__imgWrapper portfolioCard__imgWrapper--filment">
+                                <img src="img/filment-logo.svg" alt="" class="portfolioCard__img">
+                                <img src="img/eco.jpg" alt="" class="portfolioCard__img portfolioCard__img--hidden">
+                            </div>
+                        </div>
+                        <div class="portfolioCard__info">
+                            <h3 class="portfolioCard__title">Сайт для компании сферы услуг фуллфилмента</h3>
+                            <!--                            <h4 class="portfolioCard__subtitle">Многостраничный сайт для компании TIRX</h4>-->
+                            <p class="portfolioCard__description">Компания "Filment" обеспечивает подготовку товаров, логистику, маркетинг и продажи на маркетплейсах</p>
+                            <p class="portfolioCard__description">Выполнена адаптивная вёрстка в соответствии с макетом. Подключены слайдеры, галереи, реализована анимация (завязанная на событие scroll), валидация форм, попапы</p>
+                            <div class="portfolioCard__stack stack">
+                                <ul class="stack__list">
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/html.svg" alt="html" title="html"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/css.svg" alt="css"  title="css"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/javascript.svg" alt="js" title="javascript"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/figma.svg" alt="figma" title="figma"/></li>
+                                </ul>
+                            </div>
+                            <div class="portfolioCard__links">
+                                <a href="https://filment.ru/" class="portfolioCard__link">САЙТ</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="portfolio__item portfolioCard">
+                        <div class="portfolioCard__left">
+                            <div class="portfolioCard__imgWrapper portfolioCard__imgWrapper--1an">
+                                <img src="img/1-an-logo.svg" alt="" class="portfolioCard__img">
+                                <img src="img/1-an.gif" alt="" class="portfolioCard__img portfolioCard__img--hidden">
+                            </div>
+                        </div>
+                        <div class="portfolioCard__info">
+                            <h3 class="portfolioCard__title">Вёрстка одностраничного сайта в качестве тестового задания для компании "Первое Агенство Недвижимости"</h3>
+                            <!--                            <h4 class="portfolioCard__subtitle">Многостраничный сайт для компании TIRX</h4>-->
+                            <p class="portfolioCard__description"></p>
+                            <p class="portfolioCard__description">Адаптивная кроссбраузерная вёрстка страницы согласно макета из Figma; Взаимодействие с интерфейсом согласно UI Kit; Подключение яндекс карты через api + отображение стилизованного балуна; Подключение и настройка слайдера через плагин Swiper</p>
+                            <div class="portfolioCard__stack stack">
+                                <ul class="stack__list">
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/html.svg" alt="html" title="html"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/css.svg" alt="css"  title="css"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/javascript.svg" alt="js" title="javascript"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/webpack.svg" alt="webpack" title="webpack"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/npm.svg" alt="npm" title="npm"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/figma.svg" alt="figma" title="figma"/></li>
+                                </ul>
+                            </div>
+                            <div class="portfolioCard__links">
+                                <a href="https://paulochaser.github.io/1-an/" class="portfolioCard__link">САЙТ</a>
+                                <a href="https://github.com/PauloChaser/1-an" class="portfolioCard__link">GIT</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="portfolio__item portfolioCard">
+                        <div class="portfolioCard__left">
+                            <div class="portfolioCard__imgWrapper portfolioCard__imgWrapper--formula">
+                                <img src="img/formula-logo.svg" alt="" class="portfolioCard__img">
+                            </div>
+                        </div>
+                        <div class="portfolioCard__info">
+                            <h3 class="portfolioCard__title">Вёрстка одностраничного сайта в качестве тестового задания для компании "Формула"</h3>
+                            <!--                            <h4 class="portfolioCard__subtitle">Многостраничный сайт для компании TIRX</h4>-->
+                            <p class="portfolioCard__description"></p>
+                            <p class="portfolioCard__description">Вёрстка страницы по макету Figma;<br>
+                                Взаимодействие с интерфейсом;<br>
+                                Подключение яндекс карты через iframe; <br>
+                                Открытие/закрытие pop-up; <br>
+                                Открытие/закрытие бургер меню (планшет, мобильная версия)</p>
+                            <div class="portfolioCard__stack stack">
+                                <ul class="stack__list">
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/html.svg" alt="html" title="html"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/css.svg" alt="css"  title="css"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/javascript.svg" alt="js" title="javascript"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/webpack.svg" alt="webpack" title="webpack"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/npm.svg" alt="npm" title="npm"/></li>
+                                    <li class="stack__listItem"><img class="stack__icon" src="img/figma.svg" alt="figma" title="figma"/></li>
+                                </ul>
+                            </div>
+                            <div class="portfolioCard__links">
+                                <a href="https://paulochaser.github.io/formula/" class="portfolioCard__link">САЙТ</a>
+                                <a href="https://github.com/PauloChaser/formula" class="portfolioCard__link">GIT</a>
                             </div>
                         </div>
 
