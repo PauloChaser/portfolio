@@ -103,6 +103,7 @@
     opacity: 0;
 }
 
+.portfolioCard__imgWrapper.portfolioCard__imgWrapper--filment:hover .portfolioCard__img:first-child,
 .portfolioCard__imgWrapper.portfolioCard__imgWrapper--formula:hover .portfolioCard__img:first-child {
     opacity: 1;
 }
