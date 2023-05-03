@@ -1,5 +1,9 @@
 .portfolio {
+/*overflow: hidden;*/
+}
 
+.portfolio__wrapper {
+    width: 100%;
 }
 
 .portfolio__title {
@@ -11,6 +15,7 @@
     display: flex;
     flex-direction: column;
     grid-row-gap: 100px;
+    width: 100%;
 }
 
 
@@ -218,5 +223,63 @@
     .portfolioCard__info {
         width: 100%;
         padding: 50px;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .portfolio__items {
+        grid-row-gap: 50px;
+    }
+
+    .portfolioCard {
+        flex-direction: column;
+
+    }
+
+    .portfolioCard:not(:last-child) {
+        padding-bottom: 50px;
+        border-width: 2px;
+    }
+
+    .portfolioCard__left {
+        width: 100%;
+        height: 300px;
+    }
+
+    .portfolioCard__imgWrapper {
+        margin-left: -20px;
+        margin-right: -20px;
+        width: calc(100% + 40px);
+    }
+
+    .portfolioCard__info {
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    .portfolioCard__stack {
+        overflow: hidden;
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: calc(100% + 40px);
+
+        margin-top: 24px;
+        margin-bottom: 48px;
+    }
+
+    .portfolioCard__stack .stack__list {
+        overflow-x: auto;
+
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: calc(100% + 40px);
+
+        padding-bottom: 20px;
+        margin-bottom: -20px;
     }
 }
