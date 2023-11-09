@@ -72,6 +72,10 @@
     background: #2C2E3E;
 }
 
+.portfolioCard__imgWrapper--service {
+    background: #3B3B3B;
+}
+
 .portfolioCard__img {
     position: absolute;
     width: 100%;
